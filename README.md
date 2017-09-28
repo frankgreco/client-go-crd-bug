@@ -11,6 +11,8 @@ $ minikube start
 ## Build Program
 
 ```sh
+$ mkdir -p $GOPATH/src/github.com/frankgreco/
+$ cd $GOPATH/src/github.com/frankgreco/
 $ git clone git@github.com:frankgreco/client-go-crd-bug.git
 $ cd client-go-crd-bug
 $ glide install
