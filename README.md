@@ -2,6 +2,12 @@
 
 > follow the below steps to reproduce the issue documented [here](https://github.com/kubernetes/client-go/issues/276).
 
+## Start Minikube
+
+```sh
+$ minikube start
+```
+
 ## Build Program
 
 ```sh
