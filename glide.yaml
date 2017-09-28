@@ -1,0 +1,5 @@
+package: github.com/frankgreco/client-go-crd-bug
+import:
+- package: k8s.io/apimachinery
+- package: k8s.io/client-go
+  version: release-4.0

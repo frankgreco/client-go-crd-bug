@@ -1,0 +1,8 @@
+---
+
+apiVersion: bar.io/v1
+kind: ApiFoo
+metadata:
+  name: example
+spec:
+  foo: bar
