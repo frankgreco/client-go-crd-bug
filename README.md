@@ -29,7 +29,7 @@ $ kubect apply -f example.yml
 ## Start Program
 
 ```sh
-$ ./client-go-crd-bug --kubeconfig=~/.kube/config
+$ ./client-go-crd-bug --kubeconfig=/Users/frankgreco/.kube/config
 adding crd named example
 ```
 
@@ -38,6 +38,6 @@ adding crd named example
 ```sh
 $ sed -i -e 's/ApiFoo/APIFoo/g' main.go
 $ go build
-$ ./client-go-crd-bug --kubeconfig=~/.kube/config
+$ ./client-go-crd-bug --kubeconfig=/Users/frankgreco/.kube/config
 E0927 20:37:00.072532   26614 reflector.go:201] github.com/frankgreco/client-go-crd-bug/main.go:96: Failed to list *main.APIFoo: no kind "ApiFooList" is registered for version "bar.io/v1"
 ```
